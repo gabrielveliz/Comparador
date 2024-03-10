@@ -1,0 +1,32 @@
+h1 , h2 , p,span,input
+{
+  color: white;
+}
+body{
+  background: rgb(0,139,143);
+  background: radial-gradient(circle, rgba(0,139,143,1) 12%, rgba(0,159,136,1) 85%);
+  min-height: 100%;
+}
+.contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.options{
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border:2px rgba(255, 255, 255, 0) solid;
+}
+
+.options:hover{
+  border:2px white solid;
+
+}
+
+.regresar{
+  margin-top: 2rem;
+}
